@@ -1,0 +1,68 @@
+/* pages/selectAddress/selectAddress.wxss */
+.view-top{
+  width: 750rpx;
+  height: 78rpx;
+  border-bottom: 2rpx solid #eeeeee;
+  line-height: 78rpx;
+  text-indent: 66rpx;
+  font-size: 28rpx;
+  color: #939393;
+}
+.newadd{
+  color: #98c4f8;
+  float: right;
+  margin-right: 32rpx;
+  font-size: 34rpx;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 134rpx;
+  border-bottom: 2rpx solid #eeeeee;
+}
+/* 默认地址标志 */
+.defaultSign{
+  width: 0rpx;
+  height: 0rpx;
+  border-top: 30rpx solid #98c4f8;
+  border-left: 30rpx solid #98c4f8;
+  border-bottom: 30rpx solid transparent;
+  border-right: 30rpx solid transparent;
+}
+.unDefaultSign{
+  width: 60rpx;
+  height: 60rpx;
+}
+.box-center{
+  width: 570rpx;
+  height: 134rpx;
+  padding-left: 16rpx;
+}
+.box-center text{
+  display: inline-block;
+  width: 585rpx;
+  height: 67rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 90rpx;
+  font-size: 29rpx;
+  color: #5b5b5b;
+  font-weight: bold;
+}
+.address{
+  position: relative;
+  top: -10rpx;
+}
+/* 编辑地址 */
+.box-editor{
+  width: 104rpx;
+  height: 134rpx;
+  text-align: center;
+  line-height: 134rpx;
+}
+.box-editor image{
+  width: 45rpx;
+  height: 45rpx;
+}

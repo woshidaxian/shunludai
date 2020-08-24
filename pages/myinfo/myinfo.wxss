@@ -1,0 +1,235 @@
+/* pages/myinfo/myinfo.wxss */
+page{
+  background: #f9f9f9;
+}
+.top{
+  width: 100%;
+  height: 133rpx;
+  background: #98c4f8;
+}
+.view-account{
+  width:665rpx;
+  height:265rpx;
+  background: #fff;
+  position: absolute;
+  top: 46rpx;
+}
+.img-view{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  border: 4rpx solid #f5f5f5;
+  text-align: center;
+  background: #fff;
+  position: relative;
+  left: 38rpx;
+  top: -42rpx;
+}
+.img-tou{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+.aco-view{
+  width: 468rpx;
+  height: 105rpx;
+  position: relative;
+  top: -140rpx;
+  left: 194rpx;
+}
+.aco-nameandsex{
+  font-size: 30rpx;
+  height: 50%;
+  padding-left: 28rpx;
+  padding-top: 14rpx;
+}
+.aco-xin{
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 26rpx;
+}
+.starsHas{
+  width: 30rpx;
+  height: 30rpx;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC+ElEQVRYR+2WT2gUVxzHv9/ZpCTZWUE2O9tTPJnsTKTgoZdCodSD2EKwoiIFEYV69mIPvaQtlLZQ8VDooS0ipVCKSBGV5ioe7KFEsHR2UwkqBXFntSTNTnbj/vnKJo1k4+5m3xP00rnMwPv+ft/P+73fm/eIl/zwJfvDGqAa+Ttr4gyIm24mPEyiaTMZa4By5F8B+O6qqYOj7mj44wsDiKNgt4DZdUMB824mHLepglUFlorBJRJTbTNm8303U/jJtArGAJtn/7xVMAZYKvq/kNzfaaaCjqS8/M8mVTACWHo0GbChP7sZSAhdL9xFQv1CmAFE/kWCB3olF3A45YUXrAEkONXFiR3Nx4mcqJyazIGaoFpvZLdOrIbAO4QKEOfoqODIKQwN1Qrc9tfDzfFPKxBHwUeCDkKcBPHK1kbmCkGLBGcTbH4ynClca2VYBZCQiEt+DaDRkpgjrEUIuJjywoNPAVofS0X/W5If2CY1iKuTzQPJTOFyG4AExiX/e4AnDJKZSaUVku8lvfDX9cBnSl6O/LMAT5ll7kMtVRLk3mEvvL5R3XHN41IwLeHjPtL2JRH0byKBvSPp/G9dd8HmgXLJPwXxbF8OPUSSHhHNt93s3K1Osp5dH0fBCUGtvrDcHbo/ALw15OVvd2PcMnG5GJRBJG0qIem7VDZ/sldsT4DKP5Njjbru2Ziv/V90I5XNv2ENEEf+OwKv2gJAiN1s6FoDlIv+hyC/tAZo3dYSK2Mj6fm/rXqgXPR/AHn0eQCAxj7Xm5uxA4j8WYC7ewA8AJAGMNhVI5x2s+FXxgCtYzmOgkqnk1FSiQ4+T47WvqkuDL7aqHEa0DGATgej864XHjcGqJZy43U5cxsDW8epQ5wZGV08Q95f3ji28nA897g58CmBQ+1m+t318q8bA7Rdv4RlUF8nBytfcPvdhV498d+l9TMA+1Z10h9uNv+aMUArIC5NTEkMNFw7l0rNRybNWImCN+vCHgzgQioddr1HbvknNDG10f4P8ASKrhow63pQHAAAAABJRU5ErkJggg==);
+  background-size: 100%;
+}
+.starNo{
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADp0lEQVRYR9WWXWgcVRTH/2eymw+hrc02Y/YMEX2wD0URbRCSKhbFtiAofr3VD6oVtIjVN7GlD0pBikoRa8XWNy1YC6JY1CKmNvUDWir64INQEL33TmISsApmw+79y5VdSepmMzOgwQvzMvOfc373nHPPPYJlXrLM/vH/BbDWXkLyBIApVb1bRBpFolk4AsaYfSJyM4A1IvJqtVp98T8DSNP06kajcbarq2s9yTXe++O9vb1rK5XKz3khckeApDjnzgD4XFWfCg6NMUdEZLWqbvnXAZxzO0juKpVKV8Vx/HtwODk5OViv138A8JCqHssDkSsCnRy1A8sCkgvAWnsUwIp2oW6lhuQXSZI8kcV50HQEIFlyzl0L4EYAG0lu7lRsoTi99+cAHBWR8SiKTsdx/J2I+MWAFgBMT0+vrNVqIyQ3AAjPiIiUSZ4RkbEoit4bHBz8utPu0jS9xXt/O4BwRK8DEOrkSxE5DWC8Xq9/NTQ09EfLxt8Axpg7ReRdkgTwl0OSY977U/N/yBraoJuZmVk1Nzd3k/d+YxPoepIXRGRUVb9fkAJr7V6SW/v6+q7p7+//NY+jrNqpqamkVquFlDynqi8vAAjhn52dDTv/VlXvzWo0q45kl3PuU5KrvPejraguqIE0Ta8MHU5EDqjqrqzGs+iMMW8C2NLd3b1+YGDA/aMGWi+MMRtE5CTJB5IkeTuL8aU01tpnSO4ul8ujcRx/M1/f9hhaax8heSCKotuq1erJpRx0+m6tvQfAOyTvSpLk/Yu1i/YBa20okm2lUmk4juPQZnMva+0wyXEAe5IkeaGdgUUBSEbOueMALlfVdXm9N4suBfCRqt6fqRFdLHLO3Udyn6pekRcg6I0xtSiKNnVKY8dW7Jx7jOTDqjpcEOAnEdnZ6YZcCmB3aMtF7vlmBM6JyEFVfb1QCqy1+wFUVHVrwQicEJHPVHVvUYC3APyiqjvbGZiYmLisXC7PLta6m5OSU9WniwJ8DOCUqj7fMtA8HZsAbAdwB8m6iBwTkUPVanVsviNjzCsislJVHywKcBbAG6p60BgzFEXRNu/9oyJyKYAjURTtF5EVjUYjjGnh/vgRwGEROayqU865PSRvUNVwPbddHYvQWnseQJj9hwBsJnleRF7r6ek5VKlULsy3mKZp7L3fTvJxEYkBfADgN5JrkyQZKQrwEoAnSX7YnP0/EZEwLyy6mg0opGaHiNwK4NnCRVik8vP+k2sozWs8i37ZAf4E1g28MNgwQfsAAAAASUVORK5CYII=)
+}
+.sex-img{
+  width: 30rpx;
+  height: 30rpx;
+  position: relative;
+  top: 6rpx;
+}
+.account-bottom{
+  width: 100%;
+  height: 130rpx;
+  border-top: 2rpx solid #f7f7f7;
+  position: relative;
+  top: -114rpx;
+}
+/* 余额 */
+.balance{
+  width: 49%;
+  height: 130rpx;
+  border-right: 2rpx solid #f7f7f7;
+  float: left;
+  text-align: center;
+}
+/* 积分 */
+.integral{
+  width: 50%;
+  height: 130rpx;
+  float: left;
+  text-align: center;
+}
+.balance-data{
+  height: 65rpx;
+  width: 100%;
+  line-height: 100rpx;
+  font-size: 28rpx;
+}
+.balance-txt{
+  height: 65rpx;
+  width: 100%;
+  line-height: 65rpx;
+  font-size: 28rpx;
+}
+.integral-data{
+  height: 65rpx;
+  width: 100%;
+  line-height: 100rpx;
+  font-size: 28rpx;
+}
+.integral-txt{
+  width: 100%;
+  height: 65rpx;
+  line-height: 65rpx;
+  font-size: 28rpx;
+}
+.view-nav{
+  width: 664rpx;
+  height: 555rpx;
+  background: #fff;
+  position: relative;
+  top: 208rpx;
+}
+.view-help{
+  width: 664rpx;
+  height: 111rpx;
+  background: #fff;
+  position: relative;
+  top: 238rpx;
+}
+.link-style{
+  width: 100%;
+  height: 111rpx;
+  line-height: 111rpx;
+  display: flex;
+  align-items:center;
+  font-size: 28rpx;
+}
+.green{
+  width: 44rpx;
+  height: 44rpx;
+  background: #31dfb5;
+  border-radius: 50%;
+  margin-left: 22rpx;
+  margin-right: 30rpx;
+}
+.green-img{
+  width: 30rpx;
+  height: 30rpx;
+  position: relative;
+  top: -30rpx;
+  right: -6rpx;
+}
+.orange{
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  background: #ff8b53;
+  margin-right: 30rpx;
+  margin-left: 22rpx;  
+}
+.orange-img{
+  width: 22rpx;
+  height: 26rpx;
+  position: relative;
+  top: -32rpx;
+  right: -10rpx;
+}
+.purple{
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  margin-left: 22rpx;
+  margin-right: 30rpx;
+  background: #8c86f7;
+}
+.purple-img{
+  width: 26rpx;
+  height: 26rpx;
+  position: relative;
+  top: -30rpx;
+  right: -8rpx;
+}
+.blue{
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+  margin-left: 22rpx;
+  background: #73aeff;
+}
+.blue-img{
+  width: 26rpx;
+  height: 26rpx;
+  position: relative;
+  top: -30rpx;
+  right: -10rpx;
+}
+.red{
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 30rpx;
+  margin-left: 22rpx;
+  background: #f77163;
+  border-radius: 50%;
+}
+.red-img{
+  width: 28rpx;
+  height: 28rpx;
+  position: relative;
+  top: -28rpx;
+  right: -8rpx;
+}
+.grey{
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  margin-left: 22rpx;
+  margin-right: 30rpx;
+  background: #bdbebd;
+}
+.grey-img{
+  width: 34rpx;
+  height: 34rpx;
+  position: relative;
+  top: -28rpx;
+  right: -6rpx;
+}
+.btn-logout{
+  background: #fff;
+  height: 44px;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  line-height: 44px;
+  margin-top: 10px;
+  margin-bottom: 20rpx;
+}

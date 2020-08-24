@@ -1,0 +1,18 @@
+<!--pages/comment/comment.wxml我的评论-->
+<view class='container'>
+  <view class='bgbox'>
+    <view class='bgbox-w'>
+      <view class='bgbox-n'>
+        <view class='bgbox-nn'>
+          <image src='{{imgSrc}}' class='img1'></image>
+        </view>
+      </view>
+    </view>
+    <view class='bgbox-name'>{{name}}</view>
+  </view>
+  <view class='btnbox'>
+    <view class='btnbox-get' bindtap='btnGet'>我收到的</view>
+    <view class='btnbox-send' bindtap='btnSend'>我发出的</view>
+  </view>
+  <view class='lastbox'>{{text}}</view>
+</view>

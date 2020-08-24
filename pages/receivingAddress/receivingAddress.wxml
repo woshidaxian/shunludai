@@ -1,0 +1,20 @@
+<!--pages/selectAddress/selectAddress.wxml-->
+<view class='container'>
+  <view class='view-top'>
+    可选收货地址
+    <text class='btn-new' bindtap='newAddress'>新增</text>
+  </view>
+  <view class='view-box'>
+    <view class='box' wx:for="{{addressData}}" wx:key="*this">
+      <view class='defaultSign' wx:if="{{item.default == true}}"></view>
+      <view class='unDefaultSign' wx:if="{{item.default == false}}"></view>
+      <view class='box-center'>
+        <text class='name' style='color:#949494'>{{item.name+'  '+item.sex+'  '+item.phone}}</text>
+        <text class='address' style='line-height:56rpx'>{{item.school+'  '+item.address}}</text>
+      </view>
+      <view class='box-editor' bindtap='editorBtn' data-index="{{item.index}}">
+        <image src='/img/editor.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+<!--pages/register/register.wxml-->
+<view class='container'>
+  <view class='box'>
+    <view class='box-school'>
+      <text>学校：</text>
+      <input class='inp-school' value='{{val_school}}'></input>
+    </view>
+    <view class='box-name'>
+      <text>姓名：</text>
+      <input class='inp-name' value='{{val_name}}'></input>
+    </view>
+    <view class='box-number'>
+      <text>联系方式：</text>
+      <input class='inp-number' value='{{val_number}}'></input>
+    </view>
+    <view class='idcard'>
+      上传身份证：
+    </view>
+    <view class='box-photo'>
+      <view class='photo-z' style='display:block;'>
+        <view class='idImg1' style='display:table-cell;' bindtap='idPhoto_z'>
+          <image src='{{idImg1}}'></image>
+        </view>
+        <view style='margin-left:80rpx;margin-top:30rpx;font-size:32rpx;'>正面</view>
+      </view>
+      <view class='photo-f' style='display:block;'>
+        <view class='idImg2' style='display:table-cell;' bindtap='idPhoto_f'>
+          <image src='{{idImg2}}'></image>
+        </view>
+        <view style='margin-left:150rpx;margin-top:30rpx;font-size:32rpx;'>反面</view>
+      </view>
+    </view>
+    <button class='btn-up'>确定</button>
+  </view>
+</view>

@@ -1,0 +1,179 @@
+/* pages/editorAddress/editorAddress.wxss */
+page{
+  background: #f5f5f5;
+}
+.view-info{
+  width: 750rpx;
+  height: 520rpx;
+  background: #ffffff;
+  margin-top: 16rpx;
+  padding-left: 32rpx;
+  padding-right: 32rpx;
+}
+.view-info-1{
+  width: 750rpx;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  font-size: 32rpx;
+}
+.info-1-left{
+  width: 180rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+}
+.info-1-right{
+  width: 520rpx;
+  height: 90rpx;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20rpx;
+}
+/* 联系人输入框 */
+.inp-name{
+  width: 500rpx;
+  font-size: 32rpx;
+  margin-top: 20rpx;
+}
+.circle-del-1{
+  width: 32rpx;
+  height: 32rpx;
+  background: #999999;
+  color: #f9f9f9;
+  text-align: center;
+  line-height: 32rpx;
+  border-radius: 50%;
+  margin-top: 32rpx;
+  margin-right: 10rpx;
+}
+/* 性别选择 */
+.view-info-2{
+  width: 690rpx;
+  height: 115rpx;
+  border-bottom: 1px solid #ececec;
+  margin-left: 32rpx;
+}
+.info-2-box{
+  width: 540rpx;
+  height: 85rpx;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30rpx;
+}
+.sex-man,.sex-woman{
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 50%;
+  border: 1px solid #ceced1;
+  line-height: 48rpx;
+  text-align: center;
+  margin-left: 14rpx;
+}
+.sex-man-s,.sex-woman-s{
+  width: 52rpx;
+  height: 52rpx;
+  background: #00e066;
+  border-radius: 50%;
+  color: #ffffff;
+  position: relative;
+  top: -1rpx;
+  left: -1rpx;
+  font-size: 44rpx;
+}
+.sex-woman{
+  margin-left: 55rpx;
+}
+.sex-text{
+  font-size: 34rpx;
+  margin-left: 22rpx;
+}
+.view-info-3{
+  width: 690rpx;
+  height: 105rpx;
+  border-bottom: 1px solid #ececec;
+  margin-left: 32rpx;
+  display: flex;
+  flex-direction: row;
+  line-height: 105rpx;
+}
+.info-3-left{
+  width: 148rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 32rpx;
+}
+.info-3-right{
+  display: flex;
+  flex-direction: row;
+}
+.inp-phone{
+  width: 480rpx;
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.circle-del-2{
+  width: 32rpx;
+  height: 32rpx;
+  background: #999999;
+  color: #f9f9f9;
+  text-align: center;
+  line-height: 32rpx;
+  font-size: 32rpx;
+  border-radius: 50%;
+  margin-top: 32rpx;
+}
+.view-info-4{
+  width: 690rpx;
+  height: 105rpx;
+  margin-left: 32rpx;
+  display: flex;
+  flex-direction: row;
+  font-size: 34rpx;
+  line-height: 105rpx;
+  border-bottom: 1px solid #ececec;
+}
+.info-4-right{
+  margin-left: 34rpx;
+}
+.text-school{
+  width: 482rpx;
+  display: inline-block;
+  max-width: 482rpx;
+}
+.view-info-5{
+  width: 690rpx;
+  margin-left: 32rpx;
+  display: flex;
+  flex-direction: row;
+  line-height: 105rpx;
+  font-size: 34rpx;
+}
+.info-5-right{
+  margin-left: 34rpx;
+}
+.view-btn-save{
+  width: 750rpx;
+  height: 100rpx;
+  background: #98c4f8;
+  text-align: center;
+  margin-top: 30rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+}
+.btn-save{
+  color: #f2f3f5;
+}
+.view-btn-delete{
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  background: #ffffff;
+  text-align: center;
+  color: #ec2f4a;
+  margin-top: 20rpx;
+}

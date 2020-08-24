@@ -1,0 +1,67 @@
+<!-- myinfo.wxml -->
+<view class='container'>
+  <view class='top'></view>
+  <view class='view-account'>
+    <view class='img-view'>
+      <image src='{{imgsrc}}' class='img-tou'></image>
+    </view>
+    <view class='aco-view'>
+      <view class='aco-nameandsex'>
+        {{aco}}
+        <image src='{{sexImg}}' class='sex-img'></image>
+      </view>
+      <view class='aco-xin'>
+        <view class="starsHas  {{starFlag>=1? '': 'starNo'}}"></view>
+        <view class="starsHas  {{starFlag>=2? '': 'starNo'}}"></view>
+        <view class="starsHas  {{starFlag>=3? '': 'starNo'}}"></view>
+        <view class="starsHas  {{starFlag>=4? '': 'starNo'}}"></view>
+        <view class="starsHas  {{starFlag>=5? '': 'starNo'}}"></view>
+      </view>
+    </view>
+    <view class='account-bottom'>
+      <view class='balance' bindtap='goBalance'>
+        <view class='balance-data'>****</view>
+        <view class='balance-txt'>账户余额</view>
+      </view>
+      <view class='integral' bindtap='goIntegral'>
+        <view class='integral-data'>0</view>
+        <view class='integral-txt'>积分</view>
+      </view>
+    </view>
+  </view>
+  <view class='view-nav'>
+    <navigator class='link-style' url='/pages/receivingAddress/receivingAddress'>
+      <view class='green'>
+        <image src='/img/location.png' class='green-img'></image>
+      </view>收货地址
+    </navigator>
+    <navigator class='link-style' url='/pages/register/register'>
+      <view class='orange'>
+        <image src='/img/peisong.png' class='orange-img'></image>
+      </view>注册配送员
+    </navigator>
+    <navigator class='link-style' url='/pages/comment/comment'>
+      <view class='purple'>
+        <image src='/img/bi.png' class='purple-img'></image>
+      </view>我的评论
+    </navigator>
+    <navigator class='link-style' url='/pages/feedback/feedback'>
+      <view class='blue'>
+        <image src='/img/bianji.png' class='blue-img'></image>
+      </view>意见反馈
+    </navigator>
+    <navigator class='link-style' url=''>
+      <view class='red'>
+        <image src='/img/xin.png' class='red-img'></image>
+      </view>关于我们
+    </navigator>    
+  </view>
+  <view class='view-help'>
+    <navigator class='link-style' url='/pages/helpCenter/helpCenter'>
+      <view class='grey'>
+        <image src='/img/deng.png' class='grey-img'></image>
+      </view>帮助中心
+    </navigator>
+    <button class="btn-logout" bindtap="logOut">退出登录</button>
+  </view>
+</view>

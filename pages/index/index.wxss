@@ -1,0 +1,185 @@
+swiper{
+  width: 100%;
+  height: 268rpx;
+}
+swiper-item{
+  background: rgb(230, 230, 230);
+  text-align: center;
+  line-height: 268rpx;
+}
+.view-swiper{
+  width: 100%;
+  height: 268rpx;
+}
+/* 位置信息 */
+.view-place{
+  max-width: 230rpx;
+  padding-right: 30rpx;
+  padding-left: 26rpx;
+  height: 66rpx;
+  font-size: 24rpx;
+  line-height: 66rpx;
+  border-radius: 33rpx;
+  background: #9b9b9b;
+  color: #fff;
+  position: absolute;
+  top: 18rpx;
+  left: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.img-loca{
+  width: 26rpx;
+  height: 26rpx;
+}
+.distributor{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background: #9a9a9a;
+  line-height: 66rpx;
+  text-align: center;
+  position: absolute;
+  top: 24rpx;
+  right: 28rpx;
+}
+.distributor image{
+  width: 30rpx;
+  height: 37rpx;
+}
+.text-advertisement{
+  font-size: 12rpx;
+  width: 43rpx;
+  height: 16rpx;
+  line-height: 16rpx;
+  text-align: center;
+  color: #fff;
+  background: #aeadad;
+  position: absolute;
+  top: 252rpx;
+  left: 0;
+}
+.twoBtn{
+  width: 100%;
+  height: 132rpx;
+  border-bottom: 2px solid #efefef;
+  padding-top: 14rpx;
+}
+.firstBtn{
+  width: 330rpx;
+  height: 105rpx;
+  border: 2px solid #9bc6f8;
+  line-height: 105rpx;  
+  border-radius: 2rpx;
+  text-indent: 48rpx;
+  color: #9bc6f8;
+  margin-left: 22rpx;
+  float: left;
+}
+.firstBtn text{
+  font-size: 32rpx;
+}
+.imgFirstBtn{
+  width: 60rpx;
+  height: 60rpx;
+  position: relative;
+  top: 14rpx;
+  left: 50rpx;
+}
+.secondBtn{
+  width: 330rpx;
+  height: 105rpx;
+  border: 2px solid #9bc6f8;
+  line-height: 105rpx;
+  border-radius: 2rpx;
+  text-indent: 48rpx;
+  color: #9bc6f8;
+  margin-right: 20rpx;
+  float: right;
+}
+.secondBtn text{
+  font-size: 32rpx;
+}
+.imgSeconndBtn{
+  width: 60rpx;
+  height: 60rpx;
+  position: relative;
+  top: 14rpx;
+  left: 50rpx;
+}
+.presentDynamics{
+  width: 100%;
+  height: 65rpx;
+  line-height: 55rpx;
+  text-indent: 30rpx;
+}
+/* 提现动态右边箭头 */
+.dynamicsArrow{
+  width: 30rpx;
+  height: 30rpx;
+  float: right;
+  margin-right: 60rpx;
+  margin-top: 16rpx;
+}
+.shunludai{
+  width: 100%;
+  height: 225rpx;
+  font-weight: 600;
+}
+.thisTop{
+  text-align: right;
+  padding-right: 46rpx;
+  padding-top: 18rpx;
+  height: 68rpx;
+}
+.thisTop image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.thisCenter{
+  height: 62rpx;
+  text-align: center;
+}
+.thisCenterImg{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  background: #85b8f3;
+  line-height: 32rpx;
+  text-align: center;
+  display: inline-block;
+}
+.thisCenterImg image{
+  width: 20rpx;
+  height: 20rpx;
+}
+.thisBottom{
+  text-align: center;
+  height: 60rpx;
+  font-size: 26rpx;
+  color: #818181;
+}
+/* 注册配送员 */
+.register{
+  width: 100%;
+  height: 208rpx;
+  background: #f7f7f7;
+  text-align: center;
+  font-size: 26rpx;
+  padding-top: 50rpx;
+  color: #5f5f5f;
+}
+.btnRegister{
+  color: #fff;
+  background: #98c4f8;
+  width: 302rpx;
+  height: 70rpx;
+  border: none;
+  outline: none;
+  line-height: 70rpx;
+  font-size: 28rpx;
+  margin-top: 48rpx;
+}

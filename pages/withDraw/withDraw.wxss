@@ -1,0 +1,117 @@
+/* pages/withDraw/withDraw.wxss */
+page{
+  background: #f7f7f7;
+}
+.box{
+  width: 680rpx;
+  height: 390rpx;
+  border-radius: 20rpx;
+  background: #fff;
+  margin-top: 20rpx;
+}
+/*姓名  */
+.box-1{
+  width: 680rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #f3f3f3;
+  display: flex;
+  flex-direction: row;
+}
+.box-1-view{
+  padding-left: 30rpx;
+  font-size: 34rpx;
+  width: 110rpx;
+}
+.inp-name{
+  height: 80rpx;
+  color: #66a8f8;
+  font-size: 34rpx;
+}
+.box-1-icon{
+  color: #9d9d9d;
+  text-align: right;
+  width: 100rpx;
+}
+/*支付宝  */
+.box-2{
+  width: 680rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #f3f3f3;
+  display: flex;
+  flex-direction: row;
+}
+.box-2-view{
+  padding-left: 30rpx;
+  font-size: 32rpx;
+  width: 190rpx;
+}
+.inp-account{
+  height: 80rpx;
+  color: #66a8f8;
+  font-size: 32rpx;
+}
+.box-2-icon{
+  color: #9d9d9d;
+  text-align: center;
+  width: 90rpx;
+}
+/*提现金额  */
+.box-3{
+  width: 680rpx;
+  height: 160rpx;
+  border-bottom: 1px solid #f3f3f3;
+}
+.box-3-view{
+  padding-left: 30rpx;
+  padding-top: 15rpx;
+  font-size: 32rpx;
+  width: 680rpx;
+}
+.box-3-icon{
+  width: 60rpx;
+  padding-left: 40rpx;
+  padding-top: 25rpx;
+  font-size: 36rpx;
+}
+.inp-value{
+  margin-top: 21rpx;
+  font-size: 34rpx;
+}
+/*可提现金额  */
+.box-4{
+  display: flex;
+  flex-direction: row;
+}
+.box-4-view{
+  font-size: 28rpx;
+  line-height: 60rpx;
+  padding-left: 30rpx;
+}
+.btn-all{
+  height: 50rpx;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  color: #68a9f8;
+  margin-left: 22rpx;
+}
+.box-bottom{
+  color: #f66e07;
+  font-size: 24rpx;
+  position: relative;
+  right: 170rpx;
+  top: 15rpx;
+}
+/*确认提现按钮  */
+.btn-up{
+  width: 680rpx;
+  height: 80rpx;
+  background: #80b8fb;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 14rpx;
+  margin-top: 24rpx;
+  font-size: 34rpx;
+}

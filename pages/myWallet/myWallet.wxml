@@ -1,0 +1,16 @@
+<!--pages/myWallet/myWallet.wxml我的钱包-->
+<view class='container'>
+  <view class='box'>
+    <view class='box-top'>
+      <view class='box-top-1'>账户余额</view>
+      <view class='box-top-2'>￥{{purseBalance}}</view>
+    </view>
+    <view class='box-bottom'>
+      <image src='../../img/qianbao.png' class='box-bottom-img'></image>
+    </view>
+  </view>
+  <view class='btn-box'>
+    <view class='btn-1' bindtap='withDraw'>提现</view>
+    <view class='btn-2' bindtap='recharge'>充值</view>
+  </view>
+</view>

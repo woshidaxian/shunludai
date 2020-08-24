@@ -1,0 +1,8 @@
+<!--pages/Receipt/Receipt.wxml接单-->
+<view class='container'>
+  <view class='type'>类别：{{type}}</view>
+  <view class='remarks'>备注：</view>
+  <textarea class='text-area'></textarea>
+  <view class='address'>地址：{{address}}</view>
+  <button class='btn' bindtap='btn'>接单</button>
+</view>

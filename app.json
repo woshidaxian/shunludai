@@ -1,0 +1,57 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/login/login",
+        "pages/tixian/tixian",
+        "pages/receivingAddress/receivingAddress",
+        "pages/payment/payment",
+        "pages/myinfo/myinfo",
+        "pages/comment/comment",
+        "pages/recharge/recharge",
+        "pages/withDraw/withDraw",
+        "pages/myWallet/myWallet",
+        "pages/releaseOrder/releaseOrder",
+        "pages/addressSelect/addressSelect",
+        "pages/feedback/feedback",
+        "pages/helpCenter/helpCenter",
+        "pages/register/register",
+        "pages/addAddress/addAddress",
+        "pages/editorAddress/editorAddress",
+        "pages/selectAddress/selectAddress",
+        "pages/published/published",
+        "pages/receiptOrder/receiptOrder",
+        "pages/Receipt/Receipt"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#98c4f8",
+        "navigationBarTitleText": "顺路带",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#8a8a8a",
+        "backgroundColor": "#fff",
+        "selectedColor": "#98c4f8",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "主页",
+                "iconPath": "img/index.png",
+                "selectedIconPath": "img/index1.png"
+            },
+            {
+                "pagePath": "pages/published/published",
+                "text": "订单",
+                "iconPath": "img/ding.png",
+                "selectedIconPath": "img/ding1.png"
+            },
+            {
+                "pagePath": "pages/myinfo/myinfo",
+                "text": "我的",
+                "iconPath": "img/my.png",
+                "selectedIconPath": "img/my1.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

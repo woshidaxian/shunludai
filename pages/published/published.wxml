@@ -1,0 +1,53 @@
+<!--pages/published/published.wxml-->
+<!-- 已发布 -->
+<view class='container'>
+ <view class='view-nav'>
+  <view class="{{isActivied?'nav-aa-active':'nav-aa'}}" bindtap='navBtn1'>已发布</view>
+  <view class="{{isActivied?'nav-aa':'nav-aa-active'}}" bindtap='navBtn2'>已接单</view>
+ </view>
+  <view class='box-1' wx:if="{{onoff1}}">
+    <view class='box-none' wx:if="{{fabuData.length==0}}">
+      <image src='/img/none.png' class='none-img'></image>
+      <view class='none-txt'>暂无数据哦</view>
+    </view>
+    <view class='box-have' wx:if="{{fabuData.length}}">
+      <view wx:for='{{fabuData}}' class='abox' wx:key="*this">
+        <view class='abox-img-view'>
+          <image src='{{}}' class='abox-img'></image>
+        </view>
+        <view class='abox-info'>
+          <view class='info-name'>{{item.title}}</view>
+          <view class='info-time'>
+            <text class='time-day'>{{item.day}}</text>
+            <text class='time-time' style='margin-left:12rpx'>{{item.time}}</text>
+          </view>
+        </view>
+        <view class='abox-right'>
+          <view class='abox-status'>{{item.status}}</view>
+          <button class='abox-btn' bindtap='commentThis' data-id="{{item.id}}">评论此次配送员</button>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='box-2' wx:if="{{onoff2}}">
+    <view class='box-none' wx:if="{{orderData.length==0}}">
+      <image src='/img/none.png' class='none-img'></image>
+      <view class='none-txt'>暂无数据哦</view>
+    </view>
+    <view class='box-have' wx:if="{{orderData.length}}">
+      <view wx:for='{{orderData}}' class='abox' wx:key="id">
+        <view class='abox-img-view'>
+          <image src='{{}}' class='abox-img'></image>
+        </view>
+        <view class='abox-info'>
+          <view class='info-name'>{{item.title}}</view>
+          <view class='info-time'>
+            <text class='time-day'>{{item.day}}</text>
+            <text class='time-time' style='margin-left:12rpx'>{{item.time}}</text>
+          </view>
+        </view>
+        <view class='bbox-right'>{{item.status}}</view>
+      </view>
+    </view>
+  </view>
+</view>

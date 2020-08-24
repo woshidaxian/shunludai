@@ -1,0 +1,40 @@
+/* pages/tixian/tixian.wxss */
+.tibox{
+  width: 750rpx;
+  height: 54px;
+}
+.tibox view{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.tibox-left view{
+  width: 100%;
+  height: 50%;
+  line-height: 27px;
+  text-indent: 20px;
+}
+.tibox-left-top{
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.tibox-left-bottom{
+  color: #7b7b7b;
+  font-size: 26rpx;
+}
+.tibox-right{
+  text-align: right;
+  line-height: 57px;
+  font-size: 44rpx;
+  position: relative;
+  left: -20px;
+}
+.btn{
+  width: 550rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+  background: #98c4f8;
+  color: #fff;
+}

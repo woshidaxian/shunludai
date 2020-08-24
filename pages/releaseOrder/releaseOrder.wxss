@@ -1,0 +1,325 @@
+/* pages/releaseOrder/releaseOrder.wxss */
+.wrap {
+  background: #f7f7f7;
+}
+page{
+  position:relative;
+  height:100%;
+  width:100%;
+}
+.coverlayer{
+  width:100%;
+  height:150%;
+  background:rgba(0,0,0,0.4);
+  position:absolute;
+  top:-40rpx;
+  left:0;
+  z-index:100;
+}
+.hide{
+ display: none;
+}
+.show{ 
+  display: block;
+  width:100%;
+  height:102%;
+  background:rgba(0,0,0,0.4);
+  position:absolute;
+  top:-40rpx;
+  left:0;
+  z-index:100;
+}
+.coverlayer .step{
+  width:100%;
+  height:150rpx;
+  text-align:center;
+  color:white;
+  padding-top:100rpx;
+}
+.step1{
+  margin-top:10rpx;
+}
+.coverlayer .step text{
+  display:block;
+  height:70rpx;
+  width:100%;
+}
+.coverlayer .iknow{
+  text-align:center;
+  color:white;
+  width:480rpx;
+  height:90rpx;
+  border:1px solid white;
+  border-radius:50rpx;
+  margin:100rpx auto;
+  line-height:90rpx;
+}
+.layer_fir {
+  width: 100%;
+  background: white;
+}
+
+.classifyBtn {
+  font-size: 40rpx;
+  font-weight: bold;
+  margin: 40rpx 40rpx 80rpx 40rpx;
+  display: block;
+  height: 40rpx;
+  width: 100%;
+}
+
+.choies {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  height: 400rpx;
+}
+
+.choies::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.choies .choiesBtn {
+  width: 33%;
+  height: 50%;
+  float: left;
+  text-align: center;
+}
+.onChioes{
+  width: 32%;
+  height: 48%;
+  float: left;
+  text-align: center;
+  border: 1px solid #98c4f8;
+}
+.offChioes{
+  width: 32%;
+  height: 49%;
+  float: left;
+  text-align: center;
+}
+.choies .imgchoiesBtn {
+  width: 80rpx;
+  height: 75rpx;
+  display: block;
+  margin: 0 auto;
+}
+
+.chioes-word{
+  display: block;
+  height: 30rpx;
+  font-size: 30rpx;
+  width: 100%;
+  margin-top: 30rpx;
+  color: #98c4f8;
+}
+
+.layer_sec, .layer_for, .layer_fif {
+  margin-top: 10rpx;
+  width: 100%;
+  height: 250rpx;
+  background: white;
+}
+
+.layer_sec .top, .layer_sec .bottom {
+  width: 100%;
+  height: 50%;
+  margin-left: 40rpx;
+}
+
+.layer_sec .top::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.layer_sec .top .title_address, .layer_thi .top .remark, .layer_for .top .cost {
+  font-size: 45rpx;
+  font-weight: bold;
+   float: left; 
+}
+
+.layer_sec .top .title_content, .layer_thi .top .remark_tip, .check {
+  float: left;
+  margin-top: 30rpx;
+  color: #5b5b5b;
+  font-size: 30rpx;
+}
+
+.layer_sec .bottom::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.layer_sec .bottom {
+  margin-top: 10rpx;
+}
+
+.layer_sec .bottom view {
+  float: left;
+}
+
+.layer_sec .bottom .left {
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 50%;
+  background: #f77163;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  color: white;
+  border: 1px solid #f9978e;
+  margin-top: 10rpx;
+}
+
+.layer_sec .bottom .middle {
+  width: 50%;
+  height: 100%;
+  color: #5b5b5b;
+  margin-left: 20rpx;
+}
+
+.must_to_write {
+  font-size: 30rpx;
+  display: block;
+}
+
+.receiver_info {
+  font-size: 25rpx;
+  display: block;
+}
+
+.layer_sec .bottom .right {
+  color: #5b5b5b;
+  margin-left: 100rpx;
+  margin-top: 10rpx;
+}
+
+.layer_thi {
+  margin-top: 10rpx;
+  width: 100%;
+  height: 350rpx;
+  background: white;
+}
+
+.layer_thi .top, .layer_for .top {
+  height: 40%;
+  width: 100%;
+  margin-left: 40rpx;
+}
+
+.layer_thi .top::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.layer_for .top::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.layer_thi .bottom {
+  height: 60%;
+  width: 100%;
+}
+
+.remark_textarea {
+  border: 1px solid #dbdbdb;
+  height: 150rpx;
+  width: 500rpx;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 10rpx;
+}
+
+.layer_for .top {
+  padding-top: 40rpx;
+}
+
+.check {
+  margin-top: 15rpx;
+}
+
+.layer_for .bottom {
+  padding-left: 50rpx;
+}
+
+.layer_for .bottom::after {
+  content: '';
+  display: inline-block;
+  clear: both;
+}
+
+.layer_for .bottom .send_fee {
+  color: #676767;
+  font-size: 40rpx;
+  font-weight: 500;
+}
+
+.layer_for .bottom .flat_rate_text {
+  font-size: 30rpx;
+  color: #707070;
+  margin-left: 30%;
+}
+
+.layer_for .bottom view {
+  float: right;
+  margin-right: 80rpx;
+  color: black;
+  font-weight: 500;
+}
+
+.layer_fif {
+  background: #efefef;
+  margin-top: 20rpx;
+  padding-top: 40rpx;
+}
+
+.layer_fif checkbox .wx-checkbox-input {
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 50%;
+  margin-left: 40rpx;
+  background: #fff;
+  margin-right: 30rpx;
+}
+
+.agree_accept {
+  color: #a1a1a1;
+}
+
+.total {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 150rpx;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.notcontent {
+  display: inline-block;
+  margin: 50rpx 0 0 40rpx;
+  font-size: 35rpx;
+}
+
+.readytopay {
+  font-size: 35rpx;
+  margin-left: 50rpx;
+}
+.submitBtn{
+  height:100%;
+  width:200rpx;
+  float:right;
+  background:#00e066;
+  line-height:150rpx;
+  text-align:center;
+}

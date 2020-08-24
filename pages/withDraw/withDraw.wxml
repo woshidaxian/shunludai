@@ -1,0 +1,30 @@
+<!--pages/withDraw/withDraw.wxml提现-->
+<view class='container'>
+  <view class='box'>
+    <view class='box-1'>
+      <view class='box-1-view'>姓名</view>
+      <input class='inp-name' value='{{name}}'></input>
+      <view class='box-1-icon'>></view>
+    </view>
+    <view class='box-2'>
+      <view class='box-2-view'>到账支付宝</view>
+      <input class='inp-account' value='{{account}}'></input>
+      <view class='box-2-icon'>></view>
+    </view>
+    <view class='box-3'>
+      <view class='box-3-view'>提现金额</view>
+      <view style='display:flex;flex-direction:row'>
+        <view class='box-3-icon'>￥</view>
+        <input class='inp-value' placeholder='请输入提现金额' value='{{value_m}}'></input>
+      </view>
+    </view>
+    <view class='box-4'>
+      <view class='box-4-view'>
+        可提现金额￥{{value_all}}
+      </view>
+      <view class='btn-all' bindtap='allWithDraw'>全部提现</view>
+    </view>
+  </view>
+  <view class='box-bottom'>仅配送员配送所得才可提现</view>
+  <view class='btn-up' bindtap='btn_up'>确认提现</view>
+</view>

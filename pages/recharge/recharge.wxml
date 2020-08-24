@@ -1,0 +1,12 @@
+<!--pages/recharge/recharge.wxml充值-->
+<view class='container'>
+  <view class='box'>
+    <view class='box-txt'>充值金额</view>
+    <view class='box-con'>
+      <view class='box-icon'>￥</view>
+      <input class='box-inp' value='{{num_money}}' placeholder='0.00'></input>
+    </view>
+  </view>
+  <view class='bottom'>{{text}}</view>
+  <view class='btn-sure' bindtap='recharge'>确认充值</view>
+</view>

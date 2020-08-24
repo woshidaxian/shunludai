@@ -1,0 +1,76 @@
+/* pages/myWallet/myWallet.wxss */
+.box{
+  width: 570rpx;
+  height: 285rpx;
+  border-radius: 16rpx;
+  margin-top: 45rpx;
+}
+.box-top{
+  width: 570rpx;
+  height: 185rpx;
+  background: #8FC3FF;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+}
+.box-top-1{
+  color: #ffffff;
+  font-size: 28rpx;
+  padding-top: 14rpx;
+  padding-left: 20rpx;
+}
+/*钱包余额  */
+.box-top-2{
+  width: 570rpx;
+  height: 100rpx;
+  color: #fff;
+  font-size: 50rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.box-bottom{
+  width: 570rpx;
+  height: 100rpx;
+  background: #E6F2FF;
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+  text-align: center;
+}
+.box-bottom-img{
+  width: 64rpx;
+  height: 64rpx;
+  position: relative;
+  top: 18rpx;
+}
+.btn-box{
+  width: 570rpx;
+  height: 70rpx;
+  border-radius: 16rpx;
+  margin-top: 65rpx;
+  display: flex;
+  flex-direction: row;
+}
+.btn-box view{
+  width: 50%;
+  height: 70rpx;
+  background: #80B8FB;
+  text-align: center;
+  line-height: 70rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+.btn-1{
+  border-top-left-radius: 16rpx;
+  border-bottom-left-radius: 16rpx;
+}
+.btn-1:after{
+  content: "";
+  width: 0.5px;
+  height: 60rpx;
+  border: 1px solid #C4DFFF;
+  position: relative;
+  right: -114rpx;
+}
+.btn-2{
+  border-top-right-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+}

@@ -1,0 +1,11 @@
+<!--pages/payment/payment.wxml在线支付-->
+<view class='container'>
+  <view style='margin-top:30rpx;font-size:30rpx;'>支付剩余时间</view>
+  <view style='margin-top:20rpx;font-size:68rpx;font-weight:bold;'>{{time}}</view>
+  <view class='line'></view>
+  <view class='box-fee'>
+    <view class='box-fee-left'>配送费</view>
+    <view class='box-fee-right'>￥{{fee}}</view>
+  </view>
+  <button class='btn-fee' bindtap='btn_money'>微信支付</button>
+</view>

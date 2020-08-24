@@ -1,0 +1,59 @@
+/* pages/register/register.wxss */
+.box{
+  padding-left: 70rpx;
+  padding-right: 70rpx;
+  padding-top: 50rpx;
+  width: 610rpx;
+  height: 820rpx;
+}
+.box view{
+  display: flex;
+  flex-direction: row;
+  font-size: 32rpx;
+}
+.inp-school,.inp-name,.inp-number{
+  width: 350rpx;
+  height: 50rpx;
+  border: 1px solid #fcfcfc;
+  font-size: 30rpx;
+  margin-left: 50rpx;
+}
+.box-name,.box-number,.idcard,.box-photo{
+  margin-top: 55rpx;
+}
+.photo-z,.photo-f{
+  width: 50%;
+  height: 300rpx;
+  color: #797a7a;
+}
+.idImg1{
+  width: 226rpx;
+  height: 166rpx;
+  border: 2px solid #f0f0ef;
+  border-radius: 10rpx;
+  vertical-align: middle;
+  text-align:center;
+}
+.idImg1 image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.idImg2{
+  width: 226rpx;
+  height: 166rpx;
+  border: 2px solid #f0f0ef;
+  border-radius: 10rpx;
+  vertical-align: middle;
+  text-align:center;
+  position: relative;
+  right: -65rpx;
+}
+.idImg2 image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.btn-up{
+  height: 80rpx;
+  color: #fff;
+  background: #98c4f8;
+}

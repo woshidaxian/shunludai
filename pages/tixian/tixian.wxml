@@ -1,0 +1,13 @@
+ <!-- pages/tixian/tixian.wxml提现动态 -->
+<view class='container'>
+  <block wx:for="{{tixianData}}" wx:key="*this">
+    <view class='tibox'>
+      <view class='tibox-left'>
+        <view class='tibox-left-top'>{{item.name}}</view>
+        <view class='tibox-left-bottom'>{{item.time}}</view>
+      </view>
+      <view class='tibox-right'>￥{{item.money}}</view>
+    </view>
+  </block>
+  <button class='btn' bindtap='btn_apply'>申请当配送员</button>
+</view> 

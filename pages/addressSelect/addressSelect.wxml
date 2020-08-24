@@ -1,0 +1,32 @@
+<!--pages/addressSelect/addressSelect.wxml选择地址-->
+<view class='container'>
+  <view style='display:flex;flex-direction:row;'>
+    <view class='box1' bindtap='btn_school'>
+      {{value_school}}
+      <text class='topTriangle'>{{triangle1}}</text>
+    </view>
+    <view class='box2' bindtap='btn_place'>
+      {{value_place}}
+      <text class='topTriangle'>{{triangle2}}</text>
+    </view>
+    <view class='box3' bindtap='btn_dorm'>
+      {{value_dorm}}
+      <text class='topTriangle'>{{triangle3}}</text>
+    </view>
+  </view>
+  <view class='view1' wx:if="{{onoff1}}">
+    <view wx:for='{{schoolData}}' wx:key="id" bindtap='btn_school_s' data-id="{{item.id}}">
+      {{item.sch_value}}
+    </view>
+  </view>
+  <view class='view2' wx:if="{{onoff2}}">
+    <view wx:for="{{placeData}}" wx:key="id" bindtap='btn_place_s' data-id='{{item.id}}'>
+      {{item.pl_value}}
+    </view>
+  </view>
+  <view class='view3' wx:if="{{onoff3}}">
+    <view wx:for="{{dormData}}" wx:key="id" bindtap='btn_dorm_s' data-id='{{item.id}}'>
+      {{item.dorm_value}}
+    </view>
+  </view>
+</view>

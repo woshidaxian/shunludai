@@ -1,0 +1,102 @@
+<!-- 发布订单 -->
+<!--遮盖层-->
+<view class="hide{{showView?'show':''}}">
+  <view class="coverlayer">
+    <view class="step step1">
+      <text>STEP 1</text>
+      <text>填写购买商品信息</text>
+    </view>
+    <view class="step">
+      <text>STEP 2</text>
+      <text>支付订单，等待接单</text>
+    </view>
+    <view class="step">
+      <text>STEP 3</text>
+      <text>当面收货，线下结算配送费</text>
+    </view>
+    <view class="iknow" bindtap="onChangeShowState">
+      知道了
+    </view>
+  </view>
+</view>
+<!--main-->
+<view class="wrap">
+  <view class="layer_fir">
+    <text class="classifyBtn">类别选择</text>
+    <view class="choies">
+      <view class="{{isChioes1?'onChioes':'offChioes'}}" bindtap='btn_chaoshi'>
+        <image src='http://p90xi5cav.bkt.clouddn.com/chaoshi.png' class='imgchoiesBtn'></image>
+        <text class='chioes-word'>超市</text>
+      </view>
+      <view class="{{isChioes2?'onChioes':'offChioes'}}" bindtap='btn_shitang'>
+        <image src='http://p90xi5cav.bkt.clouddn.com/shitang.png' class='imgchoiesBtn'></image>
+        <text class='chioes-word'>食堂</text>
+      </view>
+      <view class="{{isChioes3?'onChioes':'offChioes'}}" bindtap='btn_kuaidi'>
+        <image src='http://p90xi5cav.bkt.clouddn.com/kuaidi.png' class='imgchoiesBtn'></image>
+        <text class='chioes-word'>快递</text>
+      </view>
+      <view class="{{isChioes4?'onChioes':'offChioes'}}" bindtap='btn_wenju'>
+        <image src='http://p90xi5cav.bkt.clouddn.com/wenju.png' class='imgchoiesBtn'></image>
+        <text class='chioes-word'>文具</text>
+      </view>
+      <view class="{{isChioes5?'onChioes':'offChioes'}}" bindtap='btn_shuiguo'>
+        <image src='http://p90xi5cav.bkt.clouddn.com/shuiguo.png' class='imgchoiesBtn'></image>
+        <text class='chioes-word'>水果</text>
+      </view>
+      <view class="{{isChioes6?'onChioes':'offChioes'}}" bindtap='btn_naicha'>
+        <image src='http://p90xi5cav.bkt.clouddn.com/naicha.png' class='imgchoiesBtn'></image>
+        <text class='chioes-word'>奶茶</text>
+      </view>
+    </view>
+  </view>
+  <view class="layer_sec">
+    <view class="top">
+      <text class="title_address" style='margin-top:20rpx;'>地址</text>
+      <text class="title_content">（请输入送取地址和时间等信息）</text>
+    </view>
+    <view class="bottom" bindtap='selectAddress'>
+      <view class="left">收</view>
+      <view class="middle">
+        <text class="must_to_write">请选择收货地址（必填）</text>
+        <text class="receiver_info">收件人信息</text>
+      </view>
+      <view class="right">></view>
+    </view>
+  </view>
+  <view class="layer_thi">
+    <view class="top">
+      <text class="remark" style='margin-top:20rpx;'>备注</text>
+      <text class="remark_tip">（在这里输入具体需求）</text>
+    </view>
+    <view class="bottom">
+      <textarea class="remark_textarea"/>
+    </view>
+  </view>
+  <view class="layer_for">
+    <view class="top">
+      <text class="cost">费用</text>
+      <text class="check">（请认真核对费用明细）</text>
+    </view>
+    <view class="bottom">
+      <text class="send_fee">配送费</text>
+      <text class="flat_rate_text">学校内统一价</text>
+      <view>
+        <text class="send_fee">1.5</text>元
+      </view>
+    </view>
+  </view>
+  <view class="layer_fif">
+    <checkbox checked="checked"></checkbox>
+    <text class="agree_accept">同意并接受</text>
+    <text class="about_item">《相关条款》</text>
+  </view>
+  <view class="total">
+    <text class="notcontent">不含商品费用</text>
+    <text class="readytopay">待支付 ￥ </text>
+    <text> {{money}}</text>
+    <view class="submitBtn" bindtap='submitbtn'>
+      提交订单
+    </view>
+  </view>
+</view>

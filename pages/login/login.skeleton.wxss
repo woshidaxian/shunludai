@@ -1,0 +1,35 @@
+/*
+此文件为开发者工具生成，生成时间: 2020/6/18 下午10:37:29 
+使用方法：参考 "pages\login\login.skeleton.wxml"
+*/
+.sk-transparent {
+    color: transparent !important;
+  }
+.sk-button {
+    color: #EFEFEF !important;
+    background: #EFEFEF !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+.sk-pseudo::before, .sk-pseudo::after {
+      background: #EFEFEF !important;
+      background-image: none !important;
+      color: transparent !important;
+      border-color: transparent !important;
+    }
+.sk-pseudo-rect::before, .sk-pseudo-rect::after {
+      border-radius: 0 !important;
+    }
+.sk-pseudo-circle::before, .sk-pseudo-circle::after {
+      border-radius: 50% !important;
+    }
+.sk-container {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000000;
+    background-color: transparent;
+  }

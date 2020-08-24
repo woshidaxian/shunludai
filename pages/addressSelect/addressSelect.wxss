@@ -1,0 +1,37 @@
+/* pages/addressSelect/addressSelect.wxss */
+page{
+  background: #f7f7f7;
+}
+.box1,.box2,.box3{
+  width: 250rpx;
+  height: 90rpx;
+  text-align: center;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  background: #fff;
+  border-right: 1px solid #f7f7f7;
+  overflow: hidden; 
+  max-width: 250rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.topTriangle{
+  color: #7c7c7c;
+  font-size: 24rpx;
+}
+/*学校  */
+.view1,.view2,.view3{
+  width: 690rpx;
+  height: auto;
+  background: #fff;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.view1 view,.view2 view,.view3 view{
+  text-indent: 20rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  overflow: hidden;
+  border-bottom: 1px solid #f4f4f4;
+}

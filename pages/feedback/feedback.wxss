@@ -1,0 +1,22 @@
+/* pages/feedback/feedback.wxss */
+.feedback{
+  width: 555rpx;
+  height: 320rpx;
+  border: 2px solid #e5eef8;
+  border-radius: 20rpx;
+  margin-top: 80rpx;
+  padding: 10rpx;
+  font-size: 32rpx;
+}
+.feedback-txt{
+  width: 548rpx;
+  height: 316rpx;
+}
+.btn-up{
+  width: 200rpx;
+  height: 70rpx;
+  background: #97bde5;
+  color: #fff;
+  font-size: 30rpx;
+  margin-top: 70rpx;
+}

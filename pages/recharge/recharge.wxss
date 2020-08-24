@@ -1,0 +1,52 @@
+/* pages/recharge/recharge.wxss */
+page{
+  background: #f7f7f7;
+}
+.box{
+  width: 680rpx;
+  height: 170rpx;
+  background: #fff;
+  margin-top: 20rpx;
+  border-radius: 16rpx;
+}
+.box-txt{
+  width: 680rpx;
+  font-size: 32rpx;
+  padding-top: 12rpx;
+  padding-left: 26rpx;
+  border-bottom: 1px solid #f7f7f7;
+  padding-bottom: 10rpx;
+}
+.box-con{
+  width: 680rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+}
+.box-icon{
+  font-size: 44rpx;
+  line-height: 100rpx;
+  padding-left: 50rpx;
+}
+.box-inp{
+  margin-top: 24rpx;
+  margin-left: 18rpx;
+}
+.bottom{
+  font-size: 22rpx;
+  margin-top: 16rpx;
+  color: #f55f00;
+  position: relative;
+  right: 190rpx;
+}
+.btn-sure{
+  width: 680rpx;
+  height: 80rpx;
+  color: #fff;
+  background: #80b8fb;
+  font-size: 34rpx;
+  text-align-last: center;
+  line-height: 80rpx;
+  border-radius: 16rpx;
+  margin-top: 40rpx;
+}

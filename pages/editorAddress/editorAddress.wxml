@@ -1,0 +1,46 @@
+<!--pages/editorAddress/editorAddress.wxml-->
+<view class='container'>
+  <view class='view-info'>
+    <view class='view-info-1'>
+      <view class='info-1-left'>联系人</view>
+      <view class='info-1-right'>
+        <input class='inp-name' value='{{name}}'></input>
+        <view class='circle-del-1' bindtap='btn_del_1'>×</view>
+      </view>
+    </view>
+    <view class='view-info-2'>
+      <view class='info-2-box'>
+        <view class='sex-man' bindtap='btn_sex_man'>
+          <view class='sex-man-s' wx:if="{{sex_man}}">✔</view>
+        </view>
+        <text class='sex-text'>先生</text>
+        <view class='sex-woman' bindtap='btn_sex_woman'>
+          <view class='sex-woman-s' wx:if="{{sex_woman}}">✔</view>
+        </view>
+        <text class='sex-text'>女士</text>
+      </view>
+    </view>
+    <view class='view-info-3'>
+      <view class='info-3-left'>手机号</view>
+      <view class='info-3-right'>
+        <input class='inp-phone' value='{{phone}}'></input>
+        <view class='circle-del-2' bindtap='btn_del_2'>×</view>
+      </view>
+    </view>
+    <view class='view-info-4'>
+      <view class='info-4-left'>收货地址</view>
+      <view class='info-4-right'>
+        <text class='text-school'>{{school}}</text>
+        <text>></text>
+      </view>
+    </view>
+    <view class='view-info-5'>
+      <view class='info-5-left'>详细地址</view>
+      <view class='info-5-right'>{{address}}</view>
+    </view>
+  </view>
+  <view class='view-btn-save'>
+    <text class='btn-save'>保存</text>
+  </view>
+  <view class='view-btn-delete'>删除地址</view>
+</view>

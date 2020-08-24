@@ -1,0 +1,32 @@
+/* pages/payment/payment.wxss */
+.line{
+  width: 90%;
+  height: 60rpx;
+  border-bottom: 1px solid #f4f4f4;
+}
+.box-fee{
+  width: 90%;
+  height: 70rpx;
+  margin-top: 10rpx;
+}
+.box-fee-left{
+  float:left; 
+  font-size: 30rpx;
+  line-height: 70rpx;
+  font-weight: bold;
+}
+.box-fee-right{
+  float: right;
+  line-height: 70rpx;
+  color: #fb0101;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.btn-fee{
+  background: #00e066;
+  width: 90%;
+  height: 70rpx;
+  line-height: 70rpx;
+  color: #fff;
+  margin-top: 20rpx;
+}

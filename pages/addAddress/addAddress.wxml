@@ -1,0 +1,45 @@
+<!--pages/addAddress/addAddress.wxml-->
+<view class='container'>
+  <view class='view-info'>
+    <view class='view-info-1'>
+      <view class='info-1-left'>联系人</view>
+      <view class='info-1-right'>
+        <input class='inp-name' value='{{name}}' placeholder='您的姓名'></input>
+      </view>
+    </view>
+    <view class='view-info-2'>
+      <view class='info-2-box'>
+        <view class='sex-man' bindtap='btn_sex_man'>
+          <view class='sex-man-s' wx:if="{{sex_man}}">✔</view>
+        </view>
+        <text class='sex-text'>先生</text>
+        <view class='sex-woman' bindtap='btn_sex_woman'>
+          <view class='sex-woman-s' wx:if="{{sex_woman}}">✔</view>
+        </view>
+        <text class='sex-text'>女士</text>
+      </view>
+    </view>
+    <view class='view-info-3'>
+      <view class='info-3-left'>手机号</view>
+      <view class='info-3-right'>
+        <input class='inp-phone' value='{{phone}}' placeholder='配送人员联系您的电话'></input>
+      </view>
+    </view>
+    <view class='view-info-4'>
+      <view class='info-4-left'>收货地址</view>
+      <view class='info-4-right' bindtap='addressSelect'>
+        <text class='text-school'>{{school}}{{val_1}}{{val_2}}</text>
+        <text>></text>
+      </view>
+    </view>
+    <view class='view-info-5'>
+      <view class='info-5-left'>详细地址</view>
+      <view class='info-5-right'>
+        <input class='inp-address' value='{{address}}' placeholder='请输入寝室号、教室等详细信息'></input>
+      </view>
+    </view>
+  </view>
+  <view class='view-btn-save'>
+    <text class='btn-save'>保存</text>
+  </view>
+</view>

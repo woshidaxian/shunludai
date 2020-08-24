@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='view-swiper'>
+    <swiper autoplay='true' indicator-dots='true' indicator-color='#9a1e06' indicator-active-color='#064396'>
+      <swiper-item>广告1</swiper-item>
+      <swiper-item>广告2</swiper-item>
+      <swiper-item>广告3</swiper-item>
+      <swiper-item>广告4</swiper-item>    
+    </swiper>
+    <view class='view-place'>
+      <image src='/img/location.png' class='img-loca'></image>
+      {{location}}
+    </view>
+    <view class='distributor'>
+      <image src='/img/peisong.png'></image>
+    </view>
+    <view class='text-advertisement'>
+      广告
+    </view>
+  </view>
+  <view class='twoBtn'>
+    <view class='firstBtn' bindtap='releaseOrder'>
+      <text>发布定单</text>
+      <image src='/img/fabu.png' class='imgFirstBtn'></image>
+    </view>
+    <view class='secondBtn' bindtap='receiptOrder'>
+      <text>接收订单</text>
+      <image src='/img/get.png' class='imgSeconndBtn'></image>
+    </view>
+  </view>
+  <!-- 提现动态 -->
+  <view class='presentDynamics' bindtap='logTiXian'>
+    <text style='font-size:26rpx;color:#94c2f8'>提现动态</text>
+    <text style='font-size:30rpx;color:#adadad;margin-left:38rpx;margin-right:38rpx;'>|</text>
+    <text style='font-size:20rpx;'>{{dynamic}}</text>
+    <image src='/img/jiantou.png' class='dynamicsArrow'></image>
+  </view>
+  <view style='width:100%;height:12rpx;background:#f7f7f7'></view>
+  <view class='shunludai'>
+    <view class='thisTop'>
+      <image src='/img/ling.png'></image>
+      <image src='/img/nai.png'></image>
+      <image src='/img/bao.png'></image>
+      <image src='/img/wen.png'></image>
+    </view>
+    <view class='thisCenter'>
+      <view class='thisCenterImg'>
+        <image src='/img/shang.png'></image>
+      </view>
+      <text style='font-size:30rpx;margin-left:10rpx'>顺路带</text>
+    </view>
+    <view class='thisBottom'>送货到校园任何一个角落</view>
+  </view>
+  <view class='register'>
+    <text>您还不是配送员哦</text>
+    <button class='btnRegister' bindtap='btnRegister'>注册配送员</button>
+  </view>
+  <view style='height:62rpx;width:100%;background:#f7f7f7;position:absolute;bottom:0;'></view>
+</view>
